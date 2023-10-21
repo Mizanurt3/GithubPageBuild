@@ -14,8 +14,8 @@ function App() {
     <div>
       
       <Routes>
-        <Route path="/github3"  element={<Homepage blogs={data?data:""}/>}/>
-        <Route path="/github3/blog/:id"  element={<BlogContentPage blogs={data?data:""}/>}/>
+        <Route path="/GithubPageBuild"  element={<Homepage blogs={data?data:""}/>}/>
+        <Route path="/GithubPageBuild/blog/:id"  element={<BlogContentPage blogs={data?data:""}/>}/>
 
       </Routes>
       

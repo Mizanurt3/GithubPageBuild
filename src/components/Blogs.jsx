@@ -51,7 +51,7 @@ export function Blogs({blogs}) {
 
                     {blogs.data.map((blog)=>
 
-                        <Link to={`/github3/blog/${blog.id}`}>
+                        <Link to={`/GithubPageBuild/blog/${blog.id}`}>
                         <div  className='bg-white rounded-xl overflow-hidden drop-shadow-md ss:z-0 sm:z'>
                         <img className='h-56 w-full object-cover' src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`} />
                         <div className='p-8'>
